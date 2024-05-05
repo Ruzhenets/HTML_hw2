@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/Logotip.png" alt="Logo" class="logo__img">
+            </a>
+        </div>
+        <ul class="menu">
+            <li><a href="index.html" class="menu__link">Главная</a></li>
+            <li><a href="catalog.html" class="menu__link">Каталог</a></li>
+            <li><a href="contacts.html" class="menu__link">Контакты</a></li>
+        </ul>
+        <hr>
+    </header>
+    <main>
+        <form action="" class="callback">
+
+            <legend><b>Напишите нам</b></legend>
+            <p class="text"><input type="text" placeholder="Имя" required class="callback__input callback__input_name"></p>
+            <p class="text"><input type="email" placeholder="Email" required class="callback__input callback__input_email"></p>
+
+            <p class="text"><select name="Topic" required class="callback__select">
+				<option value="Вопросы по препарату">Вопросы по&nbsp;препарату</option>
+				<option value="Оплата и возврат средств">Оплата и&nbsp;возврат средств</option>
+				<option value="Обращение в службу поддержки">Обращение в&nbsp;службу поддержки</option>
+				<option value="Пожелания и комментарии">Пожелания и&nbsp;комментарии</option>			
+			</select></p>
+            <p class="text">Ваши пожелания или вопросы:</p>
+            <textarea required class="callback__message"></textarea><br>
+            <button type="submit" class="callback__button">Отправить</button>
+            <button type="reset" class="callback__button">Сбросить</button>
+
+        </form>
+        <h4>Адрес:</h4>
+        <p class="text"><b>Контактный номер телефона интернет-магазина:</b> +7(495)999-99-99<br>
+            <b>Адрес:</b> г. Москва, ул. Академика Королева, д.&nbsp;1<br>
+            <b>Email:</b> info@shop.ru <br> Магазин Shop существует с&nbsp;2018&nbsp;года.</p>
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A69343ce19df7377b71e2dd3394d4107e94fa01bd42c0170dee9df6e24a4023a9&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+    </main>
+    <footer class="footer">
+        <hr> &copy;&nbsp;Все права защищены
+    </footer>
+</body>
+
+</html>

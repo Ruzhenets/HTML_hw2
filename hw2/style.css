@@ -1,0 +1,162 @@
+                            a {
+                                text-decoration: none;
+                            }
+                            
+                            .title1 {
+                                color: #222222;
+                                font-size: 28px;
+                                line-height: 36px;
+                                font-weight: bold;
+                            }
+                            
+                            .text {
+                                font-style: normal;
+                                font-weight: 300;
+                                font-size: 18px;
+                                line-height: 30px;
+                                color: #7D7987
+                            }
+                            
+                            .mini_text {
+                                color: coral;
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 36px;
+                                line-height: 80px
+                            }
+                            
+                            body {
+                                background-color: #f8f8f8;
+                            }
+                            
+                            .menu {
+                                list-style-type: none;
+                                padding: 0;
+                            }
+                            
+                            .menu__link {
+                                color: cornflowerblue;
+                                font-size: 16px;
+                                font-style: normal;
+                                line-height: 20px;
+                            }
+                            
+                            .menu__link:hover {
+                                color: #2117E5;
+                            }
+                            
+                            .headers-product {
+                                color: black;
+                                font-size: 18px;
+                                font-weight: 400;
+                                background-color: #eaeaea;
+                            }
+                            
+                            .paragraph-product::first-letter {
+                                text-transform: capitalize;
+                                font-size: 25px;
+                                font-family: arial;
+                            }
+                            
+                            .product-description__text {
+                                color: #707070;
+                                font-size: 14px;
+                                font-style: italic;
+                                line-height: 16px;
+                            }
+                            
+                            .product-detail__text {
+                                color: #484343;
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 24px;
+                                text-align: left;
+                            }
+                            
+                            .callback__input,
+                            .callback__message {
+                                width: 350px;
+                                height: 20px;
+                                color: #330134;
+                                font-size: 20px;
+                                text-align: justify;
+                            }
+                            
+                            .callback__message {
+                                height: 100px;
+                                resize: none;
+                            }
+                            
+                            .callback__select {
+                                width: 355px;
+                                height: 25px;
+                                color: #330134;
+                                font-size: 20px;
+                                text-align: justify;
+                            }
+                            
+                            .catalog__picture-small {
+                                width: 200px;
+                            }
+                            
+                            .picture-big {
+                                width: 400px;
+                                outline-style: double;
+                                outline-color: black;
+                            }
+                            
+                            .picture-big:hover {
+                                outline: none;
+                            }
+                            
+                            .callback {
+                                border: 1px solid black;
+                                padding: 0 15px 15px 10px;
+                                width: 350px;
+                            }
+                            
+                            .callback__button {
+                                background: #22FAE3;
+                                color: black;
+                                font-size: 13px;
+                                font-family: Arial;
+                                text-shadow: 0 0 2px rgba(255, 255, 255, 1);
+                                background-clip: padding-box;
+                                text-transform: uppercase;
+                                background-image: -webkit-linear-gradient(top, #efefef, #777);
+                                /*обработка изображения рендеринг(только для пробы пера использован, мне так больше кнопочки нравятся*/
+                            }
+                            
+                            .logo__img {
+                                width: 150px;
+                                border-radius: 50%;
+                            }
+                            
+                            .footer {
+                                background-color: #85F19C;
+                            }
+                            
+                            .callback__input_email:focus {
+                                background-color: #E1ED7F;
+                                color: #820DEF;
+                            }
+                            
+                            .callback__input_email,
+                            .callback__input_name,
+                            .callback__message {
+                                text-transform: capitalize;
+                            }
+                            
+                            .specification-table__tr:first-child {
+                                height: 30px;
+                                background-color: #8AFCF8;
+                            }
+                            
+                            .specification-table__td {
+                                border: 1px solid black;
+                            }
+                            
+                            .specification-table {
+                                border: 1px solid black;
+                                border-collapse: collapse;
+                            }
